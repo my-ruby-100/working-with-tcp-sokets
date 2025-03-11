@@ -2,7 +2,12 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Mon Dec 12 12:53:33 CST 2022` | -
+`Tue Mar 11 17:19:59 CST 2025` | `Mon Dec 12 12:53:33 CST 2022`
+
+
+```
+TCPServer < IPSocket < BasicSocket < IO
+```
 
 
 
@@ -26,3 +31,8 @@
 * readpartial 并 不 会 阻 塞 ， 而 是 立 刻 返 回 可 用 的 数 据
 * 调 用 readpartial时，你必须传递一个整数作为参数，来指定最大的长度
 * 当接收到EOF时， read仅仅是返回，而readpartial则会产生一个EOFError异常
+
+
+## Ref
+
+* <https://ruby-doc.org/3.4.1/IO.html>

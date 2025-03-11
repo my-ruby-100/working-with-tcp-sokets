@@ -1,5 +1,8 @@
 # 第8章 缓 冲
 
+|本期版本| 上期版本
+|:---:|:---:
+`Tue Mar 11 18:40:14 CST 2025` | -
 
 ## 8.1 写缓冲
 
@@ -20,3 +23,8 @@
 * 如果你根据应用程序所要接收的数据大小 来进行调优，那么就能获得最佳的性能
 * 所有这些Web项目都是用 16KB作为各自的读取长度。
 
+
+## Ref
+
+* <https://github.com/mongrel/mongrel/blob/master/lib/mongrel/const.rb#L55>
+* <https://github.com/ruby/webrick/blob/master/lib/webrick/httprequest.rb#L606>
